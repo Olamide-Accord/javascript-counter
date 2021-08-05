@@ -20,47 +20,55 @@ h1{
 }
 p{
     color: green;
-    font-size: 8rem;
+    font-size: 8.5rem;
     font-weight: 500;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin: 8% 0%;
 }
 button{
-    width: 12rem;
+    width: 12.5rem;
     height: 3rem;
-    font-size: 20px;
+    font-size: 1.25rem;
     background-color:rgb(0,65,106);
     color: #ffffff;
     position: relative;
     border: 0px;
-    margin: 5px 37% 15px;
+    margin: 5px 36% 15px;
 }
 button:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
-    font-size: 22px;
+    font-size: 20px;
+    width: 12.25rem;
 }
 .buttons{
-    margin: 20px 0px;
+    margin: 2rem 0px;
 }
 
 @media(max-width: 700px) {
     .container{
         border: 2px solid white;
-        width: 90%;
-        margin: 4% 5% 1%;
+        width: 80%;
+        margin: 5% 10% 5%;
     }
     h1{
-        font-size: 40px;
+        font-size: 2.75rem;
+    }
+    p{
+        font-size: 6.75rem;
     }
     button{
-        width: 160px;
-        height: 50px;
-        font-size: 18px;
+        width: 10.5rem;
+        height: 3.25rem;
+        font-size: 1.25rem;
         background-color:rgb(0,65,106);
         color: #ffffff;
         position: relative;
         border: 0px;
-        margin: 5px 27% 15px;
+        margin: 5px 35% 15px;
+    }
+    button:hover{
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+        width: 10.5rem;
     }
 }
